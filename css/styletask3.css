@@ -1,0 +1,700 @@
+*{
+    box-sizing: border-box;
+    
+}
+.div1{
+    margin-top: -8px;
+
+}
+.container1{
+    margin: auto;
+    width: 1200px;
+   
+    display: flex;
+}
+.item1{
+    width: 400px;
+    display: flex;
+
+}
+.shape1{
+    padding: 3px;
+    color: tomato;
+    line-height: 45px;
+
+}
+.shape2{
+    padding: 3px;
+    color: lightblue;
+    line-height: 45px;
+
+}
+.item1 p{
+    margin: 3px;
+    line-height: 45px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    
+}
+a:visited{
+    color: black;
+}
+.item2{
+   width: 600px;
+   display: flex;
+   align-items: center;
+   
+  
+}
+.inside{
+   
+    background-color: white;
+    flex-grow: 1;
+    line-height: 51px;
+    text-align: center;
+    border-radius: 4px;
+}
+.inside1{
+   
+    background-color: white;
+    flex-grow: 0;
+    text-align: center;
+    border-radius: 4px;
+}
+#c{
+    background-color: lightblue;
+    color: white;
+}
+#b{
+    width: 70px;
+    
+    background-color: orange;
+    color: white;
+    
+}
+#b:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.inside:hover{
+    background-color: lightblue;
+    color: white;
+    /* clip-path: polygon(50% 72%, 100% 87%, 100% 100%, 0 100%, 0 88%); */
+}
+.item3{
+    width:200px ;
+    flex-direction: row-reverse;
+    display: flex;
+   
+}
+.item3 p{
+    margin: 3px;
+    line-height: 45px;
+    font-weight: bold;
+    
+}
+.item3 i{
+    font-size: 30px;
+    line-height: 45px;
+    padding-right: 10px;
+    padding-left: 3px;
+    color: tomato;
+}
+.div2{
+    width: 100%;
+    height: 980px;
+
+   background: url(../images/bg.jpg) no-repeat center;
+   background-size: 100% 100%;
+}
+.container2{
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    position: relative;
+   
+}
+.item4{
+    position: absolute;
+    top: 80px;
+}
+.item4 h1{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+.item4.contact1 h1{
+    position: absolute;
+    font-size: 122px;
+    left: 300px;
+    top: 300px;
+    
+
+}
+.item4 p{
+    color: white;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.learn{
+    width: 500px;
+    background-color: tomato;
+    color: white;
+    line-height: 100px;
+    font-size: 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 413px;
+    left: 355px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.learn:hover{
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+}
+.our{
+    width: 150px;
+    background-color: lightblue;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 5px;
+    top: 868px;
+    left: 522px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container3{
+    width: 1200px;
+  
+    margin: auto;
+    background-color: white;
+   display: flex;
+   justify-content: space-evenly;
+  margin-bottom: 50px;
+   
+}
+.child1{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+   
+    text-align: center;
+    margin-top: 80px;
+
+    
+    
+}
+.child1 i{
+    background-color: lightblue;
+    width: 130px;
+    font-size: 70px;
+    line-height: 100px;
+    border-radius: 100%;
+
+
+}
+.child2{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    
+    text-align: center;
+    margin-top: 80px;
+ 
+   
+}
+.child2 i{
+    background-color: lightblue;
+    width: 130px;
+    font-size: 70px;
+    line-height: 100px;
+    border-radius: 100%;
+
+
+}
+.child3{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+   
+    text-align: center;
+    margin-top: 80px;
+  
+    
+    
+}
+.child3 i{
+    background-color: lightblue;
+    width: 130px;
+    font-size: 70px;
+    line-height: 100px;
+    border-radius: 100%;
+
+}
+.child4{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+  
+    text-align: center;
+    margin-top: 80px;
+  
+    
+}
+.child4 i{
+    background-color: lightblue;
+    width: 130px;
+    font-size: 70px;
+    line-height: 100px;
+    border-radius: 100%;
+
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.div4{
+    background-color: rgb(21, 72, 88);
+    
+    
+}
+.container4{
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 60px;
+    
+   
+}
+.item5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.item5 h1{
+    color: tomato;
+    font-size: 40px;
+}
+.moreworks{
+    
+    
+    width: 150px;
+    background-color: lightblue;
+    color: white;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.moreworks:hover{
+    background-color: white;
+    color: lightblue;
+    border: 1px solid lightblue;
+}
+.item6{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.photo{
+    
+    width:30% ;
+}
+.photo1{
+    width: 300px;
+    height: 300px;
+    
+    background: url(../images/portfolio.jpg) no-repeat center;
+    background-size: 100% 100%;
+    border: 10px solid white;
+}
+.photo1:hover{
+    
+    background: url(../images/protfolio2.jpg);
+    background-size: 100% 100%;
+    animation-name: flip;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+
+.photo h3{
+    color: tomato;
+}
+.photo p{
+    width: 100%;
+    color: white;
+}
+.div5{
+    background-color: white;
+    border-bottom: 1px solid;
+}
+.container5{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 60px;
+    
+}
+.item7{
+    text-align: center;
+}
+.item7 h1{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:lightblue;
+}
+.item7 p{
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item8{
+    display: flex;
+    margin-top: 70px;
+}
+.item8 .text{
+    color: lightblue;
+}
+.child5{
+    position: relative;
+}
+.details{
+    width: 60px;
+    background-color: lightblue;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    left: 70%;
+    border-radius: 5px;
+}
+.details:hover{
+    color: lightblue;
+    background-color: white;
+    border: 1px solid lightblue;
+}
+.child7{
+    position: relative;
+}
+.div6{
+
+}
+.container6{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.para1{
+    font-weight: bold;
+}
+.para2{
+    color: tomato;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.item7 i{
+    width: 150px;
+    padding: 5px;
+    font-size: 100px;
+    background-color: tomato;
+    filter: saturate(0%);
+    line-height: 140px;
+    border-radius: 100%;
+    margin-top: 40px;
+
+}
+.item7 i:hover{
+    background-color: tomato;
+    filter: saturate(100%);
+}
+#men{
+    background-color: tomato;
+    filter: saturate(100%);
+}
+.div7{
+    background-color: rgb(21, 72, 88);
+}
+.container7{
+    width: 1200px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.bird{
+    width: 23%;
+}
+.bird,.new,.recent,.contact h2{
+    color: tomato;
+}
+.birdpara,.newsletter{
+    border-bottom: 1px solid white;
+    color: white;
+}
+.birdpara.bor{
+    border-bottom: none;
+}
+.new{
+    width: 23%;
+    
+}
+.email{
+    position: relative;
+   width: 100%;
+}
+.email p{
+    color: lightblue;
+}
+.emailtext{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+.sign{
+    position: absolute;
+    display: block;
+    left: 71%;
+    bottom: -71%;
+    background-color: lightblue;
+    color: white;
+    width: 70px;
+    line-height: 24px;
+    border-radius: 5px;
+}
+.sign:hover{
+    color: lightblue;
+    background-color: white;
+    border: 1px solid lightblue;
+}
+.recent{
+    
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.recent h2{
+    flex-grow: 1;
+}
+.birdpara.rec{
+    position: relative;
+  flex-grow: 10;
+  
+}
+.rectext{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    font-size: 20px;
+    
+
+    
+}
+.recpara{
+    position: absolute;
+    left: 70px;
+    bottom: -6px;
+   
+
+}
+
+.contact{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.birdpara.con{
+    border-bottom: none;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.contact i{
+    width: 40px;
+    color: lightblue;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.contact p{
+    
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.div8{
+
+}
+.container8{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.item7.font{
+    margin-bottom: 50px;
+}
+.item7.font h1{
+    font-size: 35px;
+}
+.biginput{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input1{
+    width: 50%;
+    border-right: 1px solid;
+    position: relative;
+}
+.input1 span{
+    color: red;
+}
+.inp1para{
+    font-weight: bold;
+}
+.inp1inp{
+    width: 450px;
+    height: 40px;
+    font-size: 25px;
+}
+textarea{
+    width: 450px;
+    height: 300px;
+    font-size: 25px;
+}
+
+.codeimg{
+    width:450px ;
+    display: flex;
+    justify-content: space-between;
+}
+.codeimg img{
+    width: 200px;
+    border: 1px solid;
+}
+.code{
+    width: 170px;
+}
+.codepara{
+    font-weight: bold;
+}
+.codeinp{
+    height: 30px;
+    
+    
+}
+.send{
+    position: absolute;
+    right: 150px;
+    margin-top: 20px;
+
+   
+    background-color: lightblue;
+    color: white;
+    width: 100px;
+    line-height: 24px;
+    border-radius: 5px;
+    border: none;
+}
+.send:hover{
+    color: lightblue;
+    background-color: white;
+    border: 1px solid lightblue;
+}
+.input2{
+    width: 40%;
+}
+.inp21{
+    margin-bottom: 50px;
+}
+.inp21 span{
+    color: blue;
+
+}
+.inp211{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.inp21 i{
+    color: white;
+    background-color: gray;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+.inp212{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.inp213{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.inp22{
+    margin-top: 80px;
+    margin-bottom: 40px;
+   
+}
+.inp22 img{
+    width: 100%;
+
+}
+.inp23{
+    position: relative;
+    margin-bottom: 130px;
+}
+.inp23 h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.inp23 i{
+    
+    font-size: 60px;
+    
+}
+#sq1{
+    position: absolute;
+    color: lightblue;
+}
+#sq2{
+    position: absolute;
+    color: rgb(34, 145, 182);
+    left: 105px;
+}
+#sq3{
+    position: absolute;
+    color: rgb(0, 88, 117);
+    left: 213px;
+}
+#sq4{
+    position: absolute;
+    color: rgb(199, 165, 13);
+    left: 322px;
+}
+#sq5{
+    position: absolute;
+    color: orange;
+    left: 430px;
+}
